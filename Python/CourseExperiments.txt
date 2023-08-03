@@ -1,0 +1,330 @@
+                            Python Programming (Lab)
+Lab Course Name: Python Programming Lab
+
+Lab Course Code: XXXXX
+
+Lab Course Objectives:
+
+       1.   Learn syntax, semantics and create Functions in Python.
+       2.   Understand the usage of Lists, Dictionaries, and arrays in Python.
+       3.   Learn the Implementation of object oriented programming concepts in Python
+       4.   Learn different data structure in Python.
+       5.   Understand file handling in Python.
+       6.   Implement GUI applications and browser.
+
+List of Experiments:
+
+  Experiment                                   Details                             Lab Hours
+  Experiment 1              1. Write a Python program to get the Python            2
+                               version you are using.
+                            2. Write a Python program which accepts the radius
+                               of a circle from the user and compute the area.
+
+  Experiment 2              1. Write a Python program to display the current       2
+                               date and time.
+                            2. Write a Python program which accepts the radius
+                               of a circle from the user and compute the area.
+  Experiment 3              1. Write a Python program which accepts the user's     2
+                               first and last name and print them in reverse
+                               order with a space between them. Write a Python
+                               program to display the first and last colors from
+                               the following list.
+                               color_list = ["Red","Green","White" ,"Black"].
+
+  Experiment 4              1. Write a Python program to print the documents       2
+                               (syntax, description etc.) of Python built-in
+                               function(s).
+                               Sample function : abs()
+                               Expected Result :
+                               abs(number) -> number
+                               Return the absolute value of the argument.
+
+  Experiment 5              1. Write a Python program to get the difference        2
+                               between a given number and 17, if the number is
+                               greater than 17 return double the absolute
+                               difference. Write a Python program to test
+                               whether a number is within 100 of 1000 or 2000.
+                            2. Write a Python program to check whether a
+                               specified value is contained in a group of
+                               values. Test Data :
+                               3 -> [1, 5, 8, 3] : True
+                               -1 -> [1, 5, 8, 3] : False
+Experiment 6           1. Write a Python program to print all even                2
+                          numbers from a given numbers list in the same
+                          order and stop the printing if any numbers that
+                          come after 237 in the sequence.
+                Sample numbers list :
+
+                numbers = [
+                  386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978,
+                328, 615, 953, 345, 399, 162, 758, 219, 918, 237, 412, 566,
+                826, 248, 866, 950, 626, 949, 687, 217, 815, 67, 104, 58, 512,
+                24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
+                958,743, 527]
+                Now do it using file as input.
+
+Experiment 7    Write a Python program that accepts a single integer value        2
+                entered by the user. If the value entered is less than one, the
+                program prints nothing. If the user enters a positive integer,
+                n, the program prints an n×n box drawn with * characters. If
+                the users enters 1, for example, the program prints * If the
+                user enters a 2, it prints ** ** An entry of three yields.
+
+Experiment 8    Write a Python program to sum of two given integers.              2
+                However, if the sum is between 15 to 20 it will return 20.
+                Write a Python program to compute the future value of a
+                specified principal amount, rate of interest, and a number of
+                years.
+                      Test Data : amt = 10000, int = 3.5, years = 7
+                       Expected Output : 12722.79
+
+Experiment 9    Write a Python program to create an array of 5 integers and       2
+                display the array items. Access individual element through
+                indexes. Write a Python program to convert an array to an
+                ordinary list with the same items.
+
+Experiment 10   Write a Python program to display all the member name of          2
+                an enum class ordered by their values. Expected Output:
+                Country Name ordered by Country Code:
+                Afghanistan
+                Algeria
+                Angola
+                Albania
+                Andorra
+                Antarctica
+Experiment 11   Write a Python program to get all values from an enum             2
+                class.
+                Expected output: [93, 355, 213, 376, 244, 672].
+Experiment 12   Write a Python program to get an array buffer information         2
+                Expected Output:
+                Array buffer start address in memory and number of
+                elements. (25855056, 2)
+
+Experiment 13   Write a Python program to push three items into a heap and        4
+Experiment 14   return the smallest item from the heap. Also Pop and return
+                the smallest item from the heap
+                Expected Output:
+                Items in the heap:
+                ('V', 1)
+                ('V', 3)
+                ('V', 2)
+                ----------------------
+                The smallest item in the heap:
+                ('V', 1)
+                ----------------------
+                Pop the smallest item in the heap:
+                ('V', 2)
+                ('V', 3)
+Experiment 15   Write a function named print_big_enough that accepts two             4
+Experiment 16   parameters, a list of numbers and a number. The function
+                should print, in order, all the elements in the list that are at
+                least as large as the second parameter.
+Experiment 17   Write a function called draw_rectangle that takes a Canvas           4
+Experiment 18   and a Rectangle as arguments and draws a representation of
+                the Rectangle on the Canvas. 2. Add an attribute named color
+                to your Rectangle objects and modify draw_rectangle so that
+                it uses the color attribute as the fill color. 3. Write a function
+                called draw_point that takes a Canvas and a Point as
+                arguments and draws a representation of the Point on the
+                Canvas. 4. Define a new class called Circle with appropriate
+                attributes and instantiate a few Circle objects. Write a
+                function called draw_circle that draws circles on the canvas.
+                5. Write a program that draws the national flag of the India.
+                Hint: you can draw a polygon like this: points = [[-150,-100],
+                [150, 100], [150, -100]] canvas.polygon(points,
+                fill='saffron,white,green')
+Experiment 19   The datetime module provides date and time objects that are          4
+Experiment 20   similar to the Date and Time objects in this chapter, but they
+                provide a rich set of methods and operators. Read the
+                documentation at http: // docs. python. org/ 2/ library/
+                datetime. html . 1. Use the datetime module to write a
+                program that gets the current date and prints the day of the
+                week. 2. Write a program that takes a birthday as input and
+                prints the user’s age and the number of days, hours, minutes
+                and seconds until their next birthday. 3. For two people born
+                on different days, there is a day when one is twice as old as
+                the other. That’s their Double Day. Write a program that
+                takes two birthdays and computes their Double Day. 4. For a
+                little more challenge, write the more general version that
+                computes the day when one person is n times older than the
+                other.
+Experiment 21   This exercise is a cautionary tale about one of the most             4
+Experiment 22   common, and difficult to find, errors in Python. Write a
+                definition for a class named Kangaroo with the following
+                methods: 1. An __init__ method that initializes an attribute
+                named pouch_contents to an empty list. 2. A method named
+                put_in_pouch that takes an object of any type and adds it to
+                pouch_contents. 3. A __str__ method that returns a string
+                representation of the Kangaroo object and the contents of the
+                pouch. Test your code by creating two Kangaroo objects,
+                assigning them to variables named kanga and roo, and then
+                adding roo to the contents of kanga’s pouch.
+Experiment 23   You will write code that makes Turtles play tag. If you are         4
+Experiment 24   not familiar with the rules of tag, see http: // en. wikipedia.
+                org/ wiki/ Tag_ ( game) . 1. Download http: // thinkpython.
+                com/ code/ Wobbler. py and run it. You should see a
+                TurtleWorld with three Turtles. If you press the Run button,
+                the Turtles wander at random. 2. Read the code and make
+                sure you understand how it works. The Wobbler class inherits
+                from Turtle, which means that the Turtle methods lt, rt, fd
+                and bk work on Wobblers. The step method gets invoked by
+                TurtleWorld. It invokes steer, which turns the Turtle in the
+                desired direction, wobble, which makes a random turn in
+                proportion to the Turtle’s clumsiness, and move, which
+                moves forward a few pixels, depending on the Turtle’s speed.
+                3. Create a file named Tagger.py. Import everything from
+                Wobbler, then define a class named Tagger that inherits from
+                Wobbler. Call make_world passing the Tagger class object as
+                an argument. 4. Add a steer method to Tagger to override the
+                one in Wobbler. As a starting place, write a version that
+                always points the Turtle toward the origin. Hint: use the math
+                function atan2 and the Turtle attributes x, y and heading. 5.
+                Modify steer so that the Turtles stay in bounds. For
+                debugging, you might want to use the Step button, which
+                invokes step once on each Turtle. 6. Modify steer so that each
+                Turtle points toward its nearest neighbor. [Hint: Turtles have
+                an attribute, world, that is a reference to the TurtleWorld they
+                live in, and the TurtleWorld has an attribute, animals, that is a
+                list of all Turtles in the world. 7. Modify steer so the Turtles
+                play tag. You can add methods to Tagger and you can
+                override steer and __init__, but you may not modify or
+                override step, wobble or move. Also, steer is allowed to
+                change the heading of the Turtle but not the position. Adjust
+                the rules and your steer method for good quality play; for
+                example, it should be possible for the slow Turtle to tag the
+                faster Turtles eventually.]
+Experiment 25   A vector graphics editor is a program that allows users to          4
+Experiment 26   draw and edit shapes on the screen and generate output files
+                in vector graphics formats like Postscript and SVG. Write a
+                simple vector graphics editor using Tkinter. At a minimum, it
+                should allow users to draw lines, circles and rectangles, and it
+                should use Canvas.dump to generate a Postscript description
+                of the contents of the Canvas. As a challenge, you could
+                allow users to select and resize items on the Canvas
+Experiment 27   Use Tkinter to write a basic web browser. It should have a          4
+Experiment 28   Text widget where the user can enter a URL and a Canvas to
+                display the contents of the page. You can use the urllib
+                module to download files (see Exercise 14.6) and the
+                HTMLParser module to parse the HTML tags (see http: //
+                docs. python. org/ 2/ library/ htmlparser. html ). At a
+                minimum your browser should handle plain text and
+                hyperlinks. As a challenge you could handle background
+                colors, text formatting tags and images.
+                                                           TOTAL LAB Hours          28
+Minor Project(s) – (Only for 2 credit lab)
+
+    1. Create a Python project of a Magic 8 Ball which is a toy used for fortune-telling or seeking
+       advice.
+
+            a. Allow the user to input their question.
+
+            b. Show an in progress message.
+
+            c. Create 10/20 responses, and show a random response.
+
+            d. Allow the user to ask another question/advice or quit the game.
+
+    2. The “rank” of a word is its position in a list of words sorted by frequency: the most common
+        word has rank 1, the second most common has rank 2, etc. Zipf’s law describes a relationship
+        between the ranks and frequencies of words in natural languages (http: // en. wikipedia. org/
+        wiki/ Zipf's_ law ). Specifically, it predicts that the frequency, f , of the word with rank r is: f
+        = cr−s where s and c are parameters that depend on the language and the text. If you take the
+        logarithm of both sides of this equation, you get: log f = log c − slog r. So if you plot log f
+        versus log r, you should get a straight line with slope −s and intercept log c. Write a program
+        that reads a text from a file, counts word frequencies, and prints one line for each word, in
+        descending order of frequency, with log f and log r. Use the graphing program of your choice
+        to plot the results and check whether they form a straight line. Can you estimate the value of
+       s?
+    3. Evaluation Scheme:
+
+          Mid Term Test                                                                       20
+          End Term Test                                                                       20
+          Lab Records                                                                         25
+          Regular Assessment                                                                  20
+          Attendance & Disciplines                                                            15
+          Total                                                                              100
+
+
+Suggested Text Book(s) for Lab:
+
+        1. Learning with Python: How to Think Like a Computer Scientist Paperback – Allen
+        Downey , Jeffrey Elkner, 2015
+
+        2. Exploring Python, Timothy A. Budd, Mc Graw Hill Education
+
+Suggested Reference Book(s) for Lab:
+
+        1. Introduction to Python for Computational Science and Engineering (A beginner's guide),
+           Hans Fangohr
+        2. Learning Python, Fourth Edition, Mark Lutz, O’Reilly publication
+        3. How to Make Mistakes in Python Author: Mike Pirnat
+        4. Head First Python Paperback – by Paul Barry
+Other useful resource(s) for Lab:
+
+   1. Link to topics related to course:
+              a. Think Python How to Think Like a Computer Scientist
+              b. https://greenteapress.com/wp/think-python/
+              c. https://www.w3schools.com/python/
+              d. https://www.python.org/
+
+Course outcomes:
+
+               1. Student will understand the basics of python programming.
+               2. Understand the implementation of various data structure using python library
+                  including string, list, dictionary and its operations in python programming.
+               3. Understand about files handling to manage large data using Python.
+               4. Develop real time applications using oops, graphics etc.
+
+Course outcomes:
+
+
+                                                                                   Level of
+   S.NO               Course outcomes ( Python Programming Lab )
+                                                                                  Attainment
+            Familiarity about concepts of Python Programming. Broaden the
+   CO-1     knowledge about Variables, expressions and Functions in Python.        Familiarity
+
+            Broaden the knowledge about Branching and Iteration. To have
+            hands on skills on String Manipulation, Guess and Check,
+   CO-2                                                                           Assessment
+            Approximations, Bisection
+
+   CO-3     To learn about Decomposition Abstractions, Tuples, Lists,             Assessment
+            Dictionaries and Illustrative programs:
+            Files, Modules, Packages and Testing, Debugging, Exceptions,
+   CO-4     Assertions:                                                              Usage
+
+
+   CO-5                                                                            Familiarity
+            Understanding and analyzing Object Oriented Programming:
+
+   CO-6     To have hands on skills on Illustrative programs(examples Sorting        Usage
+            and Searching, Regular expressions) and GUI
+Course Outcomes (COs) contribution to the Programme Outcomes(POs)
+
+
+
+
+                                          P P P
+    Course outcomes ( Python    PO PO- PO          PO- PO- PO PO PO- PO- Weig
+                                          O- O- O-
+    Programming Essentials)     -1 2 -3             7 8 -9 -10 11     12 htage
+                                          4 5 6
+
+CO-1                           3   2   3   1 2 3 3      2   1   1   1   3   74%
+
+CO-2                           3   3   3   1 2 3 3      3   2   1   1   3   85%
+
+CO-3                           3   3   3   1 2 3 2      3   2   1   1   3   84%
+
+CO-4                           3   3   3   3 3 3 3      2   2   1   1   3   88%
+
+CO-5                           3   3   3   2 2 3 3      3   2   1   1   3   92%
+
+
+CO-6                           3   3   3   2 3 2 3      2   2   1   1   3   80%
+
+                               100 94 100 55 77 94 94     61 33
+           Weightage                                  83%       33% 100%
+                                % % % % % % %             % %
+
